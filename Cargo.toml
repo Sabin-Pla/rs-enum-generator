@@ -2,6 +2,7 @@
 name = "enum-generator"
 version = "0.1.0"
 edition = "2021"
+description = "Generate enum from template"
 repository = "https://github.com/Sabin-Pla/rs-enum-generator/tree/main"
 homepage = "https://github.com/Sabin-Pla/rs-enum-generator/tree/main"
 license = "MIT OR Apache-2.0"

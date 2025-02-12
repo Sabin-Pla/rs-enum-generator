@@ -1,9 +1,9 @@
 [package]
 name = "enum-generator-macros"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Sabin Plaiasu"]
-description = "Macros for Enum Key Array (EKA) crate"
+description = "Macros for enum generator crate"
 repository = "https://github.com/Sabin-Pla/rs-enum-generator/tree/main/enum-generator-macros"
 homepage = "https://github.com/Sabin-Pla/rs-enum-generator/tree/main/enum-generator-macros"
 license = "MIT OR Apache-2.0"
