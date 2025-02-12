@@ -1,0 +1,19 @@
+[package]
+name = "enum-generator-macros"
+version = "0.1.2"
+edition = "2021"
+authors = ["Sabin Plaiasu"]
+description = "Macros for Enum Key Array (EKA) crate"
+repository = "https://github.com/Sabin-Pla/rs-enum-key-array/tree/main/eka_derive"
+homepage = "https://github.com/Sabin-Pla/rs-enum-key-array/tree/main/eka_derive"
+license = "MIT OR Apache-2.0"
+
+[lib]
+proc-macro = true
+path = "lib.rs"
+
+[dependencies]
+syn = { version = "2.0.96", features = [ 'full' ] }
+quote = "1.0.38"
+proc-macro2 = "1.0.93"
+syn_derive = "0.2.0"
