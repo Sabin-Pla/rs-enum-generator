@@ -18,7 +18,7 @@ Variants generated with this macro are all generated with the same fields.
 ```keyboard_example_program.rs
 use enum_generator::generate_enum;
 
-// generate enum of 24 letter variants:
+// generate enum of 24 number variants:
 
 generate_enum!{ 
 #[derive(Debug)]
