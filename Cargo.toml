@@ -8,4 +8,4 @@ name = "enum_generator"
 path = "enum_generator.rs"
 
 [dependencies]
-enum-generator-macros = { path = "./enum-generator-macros" }
+enum-generator-macros = { path = "./enum-generator-macros", version = "0.1.0" }
